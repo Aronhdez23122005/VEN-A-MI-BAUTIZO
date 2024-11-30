@@ -1,0 +1,113 @@
+/* Estilo general */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffc8e2; /* Fondo rosa claro */
+    color: #4a001f; /* Texto guinda oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #ffc8e2; /* Fondo rosa claro */
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #4a001f; /* Texto guinda oscuro */
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a001f; /* Texto guinda oscuro */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #811c3b; /* Guinda intermedio al pasar el mouse */
+}
+
+/* Bienvenida */
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Estilo del botón sorpresa */
+#surprise-button {
+    background-color: #fbe9ee; /* Fondo claro */
+    color: #811c3b; /* Texto guinda oscuro */
+    border: 2px solid #811c3b; /* Borde guinda oscuro */
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    width: auto;
+    margin-top: 20px;
+}
+
+#surprise-button:hover {
+    background-color: #b94d6f; /* Fondo guinda intermedio */
+    color: #ffffff; /* Texto blanco */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+/* Contenido sorpresa */
+#surprise-content {
+    display: none;
+    text-align: center;
+    padding: 50px 20px;
+    color: #4a001f; /* Texto guinda oscuro */
+}
+
+#surprise-content iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+    background: #ffc8e2; /* Fondo rosa claro */
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #4a001f; /* Texto guinda oscuro */
+}
+
+/* Clase oculta */
+.hidden {
+    display: none;
+}
+
+/* Imagen principal */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para la imagen */
+}
